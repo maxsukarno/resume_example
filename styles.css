@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .wrapper {
@@ -70,8 +70,10 @@ img {
 
  .resume {
     padding: 1em;
-    justify-content: start;
+
     grid-area: resume;
+    align-items: center;
+    text-align: left;
   }
 
 header {
@@ -80,6 +82,6 @@ header {
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
     grid-template-areas: "resume navigation";
-    height:50px;
-
+    align-items: center;
+    grid-template-rows:50px;
 }
